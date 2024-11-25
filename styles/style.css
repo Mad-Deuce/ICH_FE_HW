@@ -1,0 +1,56 @@
+.container {
+    background-color: #e0ddff;
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name fieldset {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.first {
+    margin-top: 5px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.gender {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.gender fieldset {
+    display: flex;
+    flex: 1 1 0;
+    border-radius: 8px;
+}
+
+.send {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.send fieldset {
+    display: flex;
+    flex: 1 1 0;
+    border-radius: 8px;
+}
+
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-bottom: 10px;
+}

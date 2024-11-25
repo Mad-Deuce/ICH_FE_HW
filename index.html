@@ -7,6 +7,45 @@
     <title>Document</title>
   </head>
   <body>
-
+    <div class="container">
+        <div class="name">
+            <fieldset>
+                <legend>Имя</legend>
+                <input class="first" type="text" placeholder="Фамилия">
+                <input class="first" type="text" placeholder="Имя">
+            </fieldset>
+        </div>
+        <div class="bottom">
+            <div class="gender">
+                <fieldset>
+                    <legend>Пол</legend>
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Мужской</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Женский</label><br>
+                        <input type="radio" id="no-say" name="gender" value="no-say">
+                        <label for="no-say">Не хочу говорить</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div class="send">
+                <fieldset>
+                    <legend>Получать рассылку по</legend>
+                    <div>
+                        <input type="checkbox" id="email" name="subscription" value="email">
+                        <label for="email">Email</label><br>
+                        <input type="checkbox" id="sms" name="subscription" value="sms">
+                        <label for="sms">SMS</label>
+                    </div>
+ 
+                </fieldset>
+            </div>
+        </div>
+        <div class="button">
+            <button>Отправить</button>
+        </div>
+    </div>
   </body>
 </html>
+
