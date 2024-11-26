@@ -1,56 +1,53 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-    background-color: #e0ddff;
-    width: 60%;
-
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.name fieldset {
-    display: flex;
-    flex-direction: column;
-    border-radius: 8px;
-}
-
-.first {
-    margin-top: 5px;
-}
-
-.bottom {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-.gender {
-    display: flex;
-    flex: 1 1 0;
-}
-
-.gender fieldset {
-    display: flex;
-    flex: 1 1 0;
-    border-radius: 8px;
-}
-
-.send {
-    display: flex;
-    flex: 1 1 0;
-}
-
-.send fieldset {
-    display: flex;
-    flex: 1 1 0;
-    border-radius: 8px;
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #F0FFFF;
+  border-radius: 10px;
+  border: solid 1px #08a1a1;
+  padding: 10px;
 }
 
 
-.button {
-    display: flex;
-    justify-content: center;
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-button {
-    margin-bottom: 10px;
+
+.config-container {
+  display: flex;
+  gap: 10px;
+}
+
+.gender-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.receive-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.submit-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
