@@ -4,18 +4,11 @@
 
 body {
     height: 2000px;
-}
-
-.block-container{
-    /* position: sticky; */
+    width: 800px;
 }
 
 .block-title{
     background-color: #FFBFCB;
     position: sticky;
     top: 0;
-}
-
-.block-p{
-
 }
