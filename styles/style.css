@@ -1,0 +1,21 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+body {
+    height: 2000px;
+}
+
+.block-container{
+    /* position: sticky; */
+}
+
+.block-title{
+    background-color: #FFBFCB;
+    position: sticky;
+    top: 0;
+}
+
+.block-p{
+
+}
