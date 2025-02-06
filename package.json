@@ -1,0 +1,31 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "auth, local storage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Zolotukhin Petro <zolotukhinpv@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mad-Deuce/ICH_FE_PRJ_2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mad-Deuce/ICH_FE_PRJ_2/issues"
+  },
+  "homepage": "https://github.com/Mad-Deuce/ICH_FE_PRJ_2#readme"
+}

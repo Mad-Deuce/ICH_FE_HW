@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="auth-form" action="">
+        <div class="container reg-form">
+            <div class="input-container">
+                <label for="">Имя</label>
+                <input class="name reg-name border-success" type="text" title="From 2 to 24 characters. Letters only"/>
+            </div>
+            <div class="input-container">
+                <label for="">Телефон</label>
+                <input class="reg-phone border-success" type="tel" placeholder="+12345678" title="First symbol '+'. Maximum 12 numbers. Minimum 8 numbers. Only numbers"/>
+            </div>
+            <div class="input-container">
+                <label for="">Email</label>
+                <input class="email reg-email border-success" type="email" title="Require of the '@' symbol. Minimum 7 characters"/>
+            </div>
+            <div class="input-container">
+                <label for="">Пароль</label>
+                <input class="password reg-password border-success" type="password" title="Minimum 5 characters. Maximum 26 characters."/>
+            </div>
+            <input class="btn reg-btn" type="submit" value="Зарегистрироваться">
+            <p class="msg reg-msg"></p>
+        </div>
+
+        <div class="container">
+            <div class="input-container">
+                <label for="">Email</label>
+                <input class="email login-email border-success" type="email" /> <br />
+            </div>
+            <div class="input-container">
+                <label for="">Пароль</label>
+                <input class="password login-password border-success" type="text" />
+            </div>
+            <button class="btn login-btn">Войти</button>
+            <p class="msg login-msg"></p>
+            
+        </div>
+        <span class="msg">* required fields</span>
+    </div>
+
+</body>
+
+</html>
