@@ -1,19 +1,40 @@
 .root {
   position: relative;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .btn {
+  position: relative;
   border: none;
-  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
   color: tomato;
-  height: 500px;
+  height: 50px;
   width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 500;
+}
+
+.btn-prev {
+  left: 50px;
+}
+
+.btn-next {
+  right: 50px;
+}
+
+.btn:hover {
+  background-color: rgba(39, 37, 37, 0.5);
+}
+
+.btn:active {
+  background-color: rgba(196, 157, 157, 0.5);
 }
 
 .frame {
@@ -35,6 +56,28 @@
   width: 500px;
   height: 500px;
   background-size: cover;
+}
+
+.points-container {
+  position: relative;
+  top: 460px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.point {
+  position: relative;
+  background-color: rgba(255, 2, 2, 0.3);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 900;
+}
+
+.point-active {
+  background-color: rgba(255, 2, 2, 0.6);
 }
 
 /*# sourceMappingURL=style.css.map */
