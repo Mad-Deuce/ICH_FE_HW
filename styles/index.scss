@@ -1,0 +1,39 @@
+$frame-size: 500px;
+$btn-width: 50px;
+
+.root {
+  position: relative;
+  // width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: tomato;
+  height: $frame-size;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  overflow: hidden;
+  position: relative;
+  width: $frame-size;
+  height: $frame-size;
+}
+.cards-container {
+  position: absolute;
+  left: 0;
+  height: $frame-size;
+  display: flex;
+  transition-duration: 1s;
+}
+.card {
+  width: $frame-size;
+  height: $frame-size;
+  background-size: cover;
+}
