@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #F0FFFF;
+  border-radius: 10px;
+  border: solid 1px #08a1a1;
+  padding: 10px;
+}
+
+
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.config-container {
+  display: flex;
+  gap: 10px;
+}
+
+.gender-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  gap: 5px;
+}
+
+.receive-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  gap: 5px;
+}
+
+.submit-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

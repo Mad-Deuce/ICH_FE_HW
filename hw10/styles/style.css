@@ -1,0 +1,12 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+.bg-init {
+   background-color: blue;
+}
+
+.bg-new {
+    background-color: red;
+}
